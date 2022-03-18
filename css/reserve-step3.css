@@ -1,0 +1,78 @@
+﻿@charset "utf-8";
+
+body{
+	padding: 50px 0;
+    background: #000;
+}
+
+#contents{
+	padding-bottom: 30px;
+    width: 1200px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
+#STEP{
+	padding:20px 0 0 50px;
+    width:90%
+//	margin:0 auto;
+}
+
+/*form設定=================================*/
+#entry{
+    width: 800px;
+    margin: 50px auto;
+}
+
+#entry table{
+	margin: 0 0 20px;
+	width: 700px;
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+}
+
+#entry th,#entry td{
+	padding: 10px;
+	border: 1px solid #CCC;
+	vertical-align: middle;
+	font-size: 0.86rem;
+}
+#entry th{
+	width: 300px;
+	text-align: left;
+	background-color: #EEE;
+}
+
+#entry p{
+	text-align: center;
+}
+
+input[type="text"],input[type="email"]{
+	width: 400px;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	margin-right:5px;
+}
+
+
+label{
+	padding-right: 10px;
+}
+textarea{
+	width: 400px;
+	height: 50px;
+}
+
+/*form設定ここまで=================================*/
+
+#before {
+text-align: right;
+margin-right:30px;
+margin-bottom:20px;
+}
+
+#next {
+text-align: right;
+margin-right:30px;
+}

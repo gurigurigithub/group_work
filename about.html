@@ -1,0 +1,104 @@
+﻿<!DOCUTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>映画飯六本木店</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/about.css" rel="stylesheet">    
+<link rel="icon" type="image/x-icon" href="common/%E3%83%95%E3%82%A1%E3%83%93%E3%82%B3%E3%83%B334%C3%9734.svg">    
+</head>
+<body>
+<div id="wrapper">
+
+    <div id="hero"><img src="common/header.png" alt="header" width="1300" height="240"></div>
+    <header>
+<div id="navarea">
+<nav>
+<li><a href="about.html">about</a></li>
+<li><a href="menu.html">menu</a></li>
+<li><a href="schedule.html">schedule</a></li>
+<li><a href="reserve-step1.html">reserve</a></li>
+<li><a href="access.html">access</a></li>
+</nav>
+</div>  
+<div id="Pagetitle">
+<p>About</p>
+</div>
+    </header>
+<!-------------------------------headerここまで----------------------------------->
+
+<main>
+    
+
+   <section>
+<h1>”あのひと”と”わたし”だけの空間。</h1>
+<h2>
+映画飯は、都会の喧噪を忘れて映画と料理を<br>
+大好きなあの人と優雅に楽しむオトナのための隠れ家です。<br>
+<br>
+お席は３時間制で、映画はお昼・午後・夕食の１日３回上映しております。<br>
+<br>
+料理は全てコースとなっており、<br>
+メニューを迷わずに映画へ集中することができます。<br>
+<br>
+ジャンルは1960年代から最新映画までの”恋愛映画”がテーマ。<br>
+色あせることのない時の不思議をぜひ、あのひととの思い出に。<br>
+</h2>
+</section>
+
+    
+</main>
+<p class="yoyakuaicon"><a href="reserve-step1.html"><img src="common/yoyakuicon.png"></a></p>
+
+<!-------------------------------footerここから----------------------------------->
+
+<footer>
+<img src="common/firumu.png" alt="firumu" width="1300" height="60">
+
+<div id="footertop">
+<p><img src="common/oyaji.png" alt="oyaji" width="72" height="140"></p>
+<section>
+<ul>
+<li><a href="#">個人情報保護ポリシー</a></li>
+<li><a href="#">プライバシーポリシー</a></li>
+<li><a href="#">ご利用条件</a></li>
+<li><a href="#">お問い合わせ</a></li>
+</ul>
+<div class="sns">
+<a href="#"><img src="common/fb.jpg" alt="fb" width="40" height="39"></a>
+<a href="#"><img src="common/twitter.jpg" alt="twitter" width="40" height="34"></a>
+<a href="#"><img src="common/insta.jpg" alt="insta" width="40" height="39"></a>
+</div>
+</section>
+</div>
+
+<div id="footerunder">
+<img src="common/eigameshi.png" alt="eigameshi" width="137" height="50">
+<p>&copy;2021 eigameshi.</p>
+</div>
+</footer>
+</div>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/yoyakuaicon.js" type="text/javascript"></script>
+
+<script>  
+var _window = $(window),
+    _header = $('header'),
+    heroBottom;
+ 
+_window.on('scroll',function(){
+    heroBottom = $('#hero').height();
+    if(_window.scrollTop() > heroBottom){
+        _header.addClass('fixed');   
+    }
+    else{
+        _header.removeClass('fixed');   
+    }
+});
+_window.trigger('scroll');
+</script>
+    
+</body>
+</html>

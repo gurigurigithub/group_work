@@ -1,0 +1,60 @@
+﻿<!DOCUTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>購入内容の確認</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/step5.css" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="common/%E3%83%95%E3%82%A1%E3%83%93%E3%82%B3%E3%83%B334%C3%9734.svg">    
+</head>
+<div id="wrapper">
+
+<body>
+
+<header>
+</header>
+
+
+<nav>
+<ul>
+</ul>
+</nav>
+
+
+<main>
+<div id="image">
+<img src="images/step5.jpg">
+</div>
+</main>
+<p class="topicon"><a href="schedule.html"><img src="images/scheduleicon.gif"></a></p>
+
+<footer>
+</footer>
+
+
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/yoyakuaicon.js" type="text/javascript"></script>
+
+<script>  
+var _window = $(window),
+    _header = $('header'),
+    heroBottom;
+ 
+_window.on('scroll',function(){
+    heroBottom = $('#hero').height();
+    if(_window.scrollTop() > heroBottom){
+        _header.addClass('fixed');   
+    }
+    else{
+        _header.removeClass('fixed');   
+    }
+});
+_window.trigger('scroll');
+</script>
+
+
+</div><!--wrapper-->
+</body>
+</html>
+

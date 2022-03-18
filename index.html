@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/top.css" rel="stylesheet"> 
+<link href="bxslider/jquery.bxslider.css" rel="stylesheet">    
+</head>
+    
+<body>
+<div id="container">
+
+<div id="rogo">   
+    <a href="about.html"><img src="images/top.png" alt="ロゴ"> </a>
+</div>    
+    
+<div class="bx-wrapper">
+<ul class="slider">
+  <li><img src="bxslider/top_01.gif" alt="内観"  /></li>
+  <li><img src="bxslider/top_02.jpg" alt="肉"  /></li>
+  <li><img src="bxslider/top_03.jpg" alt="映写機" /></li>
+  <li><img src="bxslider/top_04.jpg" alt="外観"  /></li>
+  <li><img src="bxslider/top_05.jpg" alt="パスタ" /></li>
+</ul>
+</div>   
+</div>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script>
+$(function(){
+	$('.slider').bxSlider({
+        mode:'horizontal',
+		auto:true,
+		speed:1500,
+		controls:0,
+		pager:false,
+	});
+});
+</script>
+
+</body>    
+</html>

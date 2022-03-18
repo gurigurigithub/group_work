@@ -1,0 +1,60 @@
+﻿@charset"utf-8";
+
+body{
+    background: #000;
+}
+
+#contents{
+    width:1300px;
+    margin: 0 auto;
+    padding-top: 125px;
+	background: #000; 
+//	background: red;
+	padding-bottom: 10px;
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.koumoku{
+    display: flex;
+    background: white;
+    margin-bottom: 50px; 
+    height: 280px;
+}
+
+.koumokuIMG{
+    width: 250px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.koumokuP h2{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.koumokuP{
+    width: 750px;
+    height: 150px;
+    background: white;
+    font-size: 1rem;
+}
+
+.honbun{
+    width: 630px;
+    line-height: 1.4rem;
+}
+
+.rightplace{
+    text-align: right;
+    margin-top:10px;
+    margin-right: 30px;
+    font-size:1.5rem;
+}
+
+.rightplace img{
+    text-align: right;
+    margin-right: 5px;
+    font-size:1.5rem;
+}
